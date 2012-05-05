@@ -1,0 +1,11 @@
+/* Styling for the jQuery GSVideobar plugin. */
+.empty_gsvb {
+	display: block;
+}
+.empty_gsvb:before {
+	content: 'No matching videos found.';
+	display: inline;
+}
+.empty_gsvb .resultsBox_gsvb {
+	display: none;
+}
